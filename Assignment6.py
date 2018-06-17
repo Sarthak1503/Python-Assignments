@@ -5,11 +5,6 @@ for i in range(10):
 
 print(p)
 
-#2.Write an infinte loop.
-
-while(True):
-    print("Hello World!")
-
 #3.Create a list of integer elements by user input. Make a new list which will store square of elements of previous list. 
 l=[]
 s=[]
@@ -70,4 +65,7 @@ print(l)
 if top==0:
     print("the number you entered is not in the list")
         
+#2.Write an infinte loop.
 
+while(True):
+    print("Hello World!")
