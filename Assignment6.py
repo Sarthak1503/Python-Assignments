@@ -44,7 +44,8 @@ for i in range (4):
         print("*",end='')
     print('')
 
-#7.Create a user defined dictionary and gets keys corresponding to the values using for loop.
+#7.Create a user defined dictionary and gets keys corresponding to the values 
+# using for loop.
 d={1:'a',5:'b','z':6}
 for k,v in d.items():
 	print(k,":",v)

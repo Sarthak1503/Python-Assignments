@@ -11,7 +11,8 @@ else:
     else:
         print("not a leap year")
 
-#2.Take length and breadth input from user and check whether the dimensions are of square or rectangle.
+#2.Take length and breadth input from user and check whether the dimensions
+#  are of square or rectangle.
 x=int(input("Enter the length:"))
 y=int(input("Enter the Breadth:"))
 if x==y:
@@ -57,4 +58,5 @@ p=n*100
 if p>1000:
     disc=p*.1
     r=p-disc
+    
     print('Total price=',r)
