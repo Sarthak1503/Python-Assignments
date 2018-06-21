@@ -66,7 +66,7 @@ class Cop:
 		print(self.name)
 		print(self.age)
 		print(self.work_experience)
-		print(self.designation)
+		print(self.designations)
 		
 	def update(self,name,age,work_experience,designation):
 		self.name=name
