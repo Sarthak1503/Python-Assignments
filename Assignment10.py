@@ -63,10 +63,10 @@ class Cop:
 		
 	def display(self):
 		print("Details:")
-		print(self.name=)
-		print(self.age=)
-		print(self.work_experience=)
-		print(self.designation=)
+		print(self.name)
+		print(self.age)
+		print(self.work_experience)
+		print(self.designation)
 		
 	def update(self,name,age,work_experience,designation):
 		self.name=name
