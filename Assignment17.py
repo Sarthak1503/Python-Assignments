@@ -3,8 +3,8 @@
 import tkinter
 from tkinter import *
 import sys
-def display():
-    sys.display()
+def exit():
+    sys.exit()
 
 root=Tk()
 root.title("My First GUI ")
@@ -33,6 +33,23 @@ b=Button(root,text="Submit",bg="navy",fg="White",command=show)
 b.pack()
 
 root.mainloop()
+
+'''Ques.3 Create a frame using tkinter with any label text and two buttons.
+          One to exit and other to change the label to some other text.'''
+import tkinter
+from tkinter import *
+import sys
+def Change():
+    label.config(text= "It's GUI")
+root = Tk()
+label = Label(root ,text="Hello Guys")
+label.grid(row = 0,)
+a = Button(root, text="Change" ,command=Change)
+a.grid(row= 1)
+b = Button(root, text="Exit" ,command=sys.exit)
+b.grid(row= 2)
+root.mainloop()
+
 
 #Ques.4 Write a python program using tkinter interface to take an input in the GUI program and print it.
 
